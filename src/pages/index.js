@@ -11,7 +11,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <h1>Hi {process.env.GATSBY_TELEMETRY_DISABLED}</h1>
     <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great. {{process.env.CONTEXT}</p>
+    <p>Now go build something great. {process.env.CONTEXT}</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>

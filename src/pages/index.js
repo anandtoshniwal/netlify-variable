@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+    {console.log(process)}
     <SEO title="Home" />
     <h1>Hi {process.env.TRIAL}</h1>
     <p>Welcome to your new Gatsby site.</p>
